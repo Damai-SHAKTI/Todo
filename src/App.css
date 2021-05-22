@@ -1,0 +1,50 @@
+/* Navbar */
+.navbar {
+  border-bottom: 1px solid rgba(0,0,0,.125);
+}
+.navbar > .container-fluid > .navbar-title {
+  font-weight: 600;
+}
+.navbar > .container-fluid > .theme-icon {
+  width: 25px;
+  text-decoration: none;
+  border: none;
+  color: black;
+  background-color: #f8f9fa;
+}
+/*Navbar End */
+
+.card-body > form > div > center {
+  font-weight: bold;
+  color: rgb(211, 7, 7);
+}
+.card, .todo-list-holder {
+  width: 50%;
+  margin: 10px auto;
+}
+.btn-add {
+  float: right;
+}
+.card-todo {
+  width: 98%;
+}
+.card-body button {
+  float: right;
+}
+.todo-list-holder {
+  border: 1px solid rgba(0,0,0,.125);
+}
+.delete-icon {
+  font-size: 20px;
+}
+
+@media (max-width: 425px) {
+  .card, .todo-list-holder {
+    width: 98%;
+    margin: 10px auto;
+  }
+  .btn-add {
+    margin-top: 10px;
+    float: left;
+  }
+}
